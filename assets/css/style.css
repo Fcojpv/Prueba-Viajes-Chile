@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  font-family: PT Sans;
+}
+
+.navbar-custom {
+  top: 0;
+  background-color: #2e9ba6;
+  color: white; 
+  width: 100%;
+  position: sticky;
+  z-index: 10;
+}
+
+.ViajesChile {
+  color: white;
+}
+
+.icono {
+  width: 32px ;
+  height: 32px ;
+}
+
+h1 {
+  margin-top: 16 pl;
+  color: white;
+  font-size: 1.5rem;
+}
+
+#QuienesSomos p {
+  color: white;
+  font-size: 16pl;
+  text-align: justify;
+}
+
+.conainer-icon {
+  display: flex;
+  justify-content: center;
+  background-color: #04ccf4;
+}
+
+.invert-color {
+  filter: invert(1);
+}
+
+.font-card-color {
+  background-color: #04ccf4;
+}
+
+
+#Destacados h2 {
+  margin-top: 16 px;
+  color: white;
+  font-size: 24 px;
+}
+
+#Contacto h3 {
+  color: white;
+  font-size: 24 px;
+}
+
+#QuienesSomos {
+  padding-top: 16 px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16 px;
+}
+
+#Destacados {
+  padding-top: 16 px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16 px;
+}
+
+#Contacto {
+  padding-top: 32 px;
+  padding-bottom: 48 px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16 px;
+}
+
+.card-text {
+  color: white;
+}
+
+.btn-color {
+  background-color: #04ccf4;
+}
+
+#footer {
+  background-color: #04ccf4;
+  height: 3rem;
+}
+
+#footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.iconos {
+  display: flex;
+  gap: 10 px;
+}
+
+
+@media (max-width: 800px) {
+  #QuienesSomos {
+    display: none;
+  }
+}
